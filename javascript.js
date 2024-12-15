@@ -63,6 +63,7 @@ function playRound() {
     paperBtn.classList.add("disabled");
     scissorsBtn.classList.add("disabled");
     resetBtn.classList.remove("disabled");
+    gameOverDisplay();
   }
 }
 
