@@ -83,6 +83,8 @@ function resetGame() {
   paperBtn.classList.remove("disabled");
   scissorsBtn.classList.remove("disabled");
   resetBtn.classList.add("disabled");
+  humanScoreDisplay.innerText = humanScore;
+  compScoreDisplay.innerText = computerScore;
 }
 /* function playGame() {
   var humanScore = 0;
